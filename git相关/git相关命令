@@ -1,0 +1,20 @@
+###git 免密登录###
+  1. git config --global credential.helper store
+  2. git config --global user.email "你的邮箱"
+  3. git config --global user.name "你的github用户名"
+  4. git pull或git push
+  5. 输入你的用户名、密码，成功后，系统将把你的用户名、密码全局保存，下次就不用再输入密码了。
+
+###git命令###
+git init
+git add .
+git commint -m 'version 
+git status
+git reflog
+git remote add origin https://github.com/ZhangZhenghong/typeidea.git
+git push -u origin master
+git checkout -b newbranch  #create new branch
+git checkout branch #change branch
+git branch -a
+git pull origin branchname
+
